@@ -1,0 +1,89 @@
+
+.circular-img {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.pos-title-main {
+    margin-left: 5%;
+}
+
+.pos-title-home {
+    position: absolute;
+    z-index: 2;
+}
+
+.bloco-1 {
+    margin-bottom: 10%;
+}
+
+.main{
+    width: 100%;
+}
+
+.pos-cases{
+    margin-bottom: 5%;
+}
+
+.cards {
+    margin-right: 5%;
+}
+
+.tilte-pos {
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.text-left {
+    text-align: left;
+    margin-top: 15%;
+}
+
+.text-right {
+    text-align: right;
+    margin-top: 20%;
+}
+
+
+.img-pos {
+    margin-top: 5%;
+}
+
+.tecnologias-pos {
+   margin-left: 5%;
+   margin-top: 5%;
+}
+.node {
+    margin-left: 10%;
+}
+
+.firebase {
+    margin-left: 20%;
+}
+
+.angular {
+    margin-left: 15%;
+}
+
+.name {
+    padding-left: 10%;
+    padding-right: 10%;
+
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.text-card {
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+.circular-img {
+    width: 300px;
+    height: 300px;
+
+    border-radius: 50%;
+
+}

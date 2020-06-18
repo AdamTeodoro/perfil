@@ -1,0 +1,32 @@
+
+.linha {
+    width: 50%;
+    
+    color: transparent;
+    margin-left: 25%;
+
+    border-bottom: 0.5px solid #999;
+}
+
+
+.pos-linha {
+    margin-top: 5%;
+
+    position: relative;
+
+    bottom: 2%;
+}
+
+.pos-itens-footer {
+    margin-left: 25%;
+}
+
+.pos-item-footer {
+    margin-left: 5%;
+}
+
+.textoSimples {
+    color:rgb(214, 44, 44);
+
+    font-family: fantasy;
+}

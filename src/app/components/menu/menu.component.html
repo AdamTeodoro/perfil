@@ -1,0 +1,25 @@
+<div class="pos-menu">
+    <div class="menu">
+        <div
+            (click)="alteraAtivo('home')"
+            [style.border-bottom-color]="itemActive == 'home' ? 'rgb(226, 11, 47)' : 'transparent'"
+            routerLink="home"
+            class="item-menu">
+            Home
+        </div>
+        <div
+            (click)="alteraAtivo('about')"
+            [style.border-bottom-color]="itemActive == 'about' ? 'rgb(226, 11, 47)' : 'transparent'"
+            routerLink="about"
+            class="item-menu">
+            About
+        </div>
+        <div
+            (click)="alteraAtivo('contact')"
+            [style.border-bottom-color]="itemActive == 'contact' ? 'rgb(226, 11, 47)' : 'transparent'"
+            routerLink="contact"
+            class="item-menu">
+            Contact
+        </div>
+    </div>
+</div>

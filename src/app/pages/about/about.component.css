@@ -1,0 +1,19 @@
+
+.circular:hover {
+
+    transform: rotate(400grad);
+    transition: all 3s ease;
+}
+
+.img-pos-code {
+    margin-top: 10%;
+}
+
+.pos-text-first {
+    margin-top: 5%;
+}
+
+.pos-title {
+    margin-left: 10%;
+    margin-top: 10%;
+}
