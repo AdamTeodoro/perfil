@@ -1,7 +1,6 @@
 
 .circular-img {
     margin-right: 5%;
-    margin-left: 5%;
 }
 
 .pos-title-main {
@@ -21,7 +20,8 @@
     width: 100%;
 }
 
-.pos-cases{
+.pos-comentario{
+    margin-left: 5%;
     margin-bottom: 5%;
 }
 
@@ -36,12 +36,10 @@
 }
 
 .text-left {
-    text-align: left;
     margin-top: 15%;
 }
 
 .text-right {
-    text-align: right;
     margin-top: 20%;
 }
 
@@ -54,9 +52,7 @@
    margin-left: 5%;
    margin-top: 5%;
 }
-.node {
-    margin-left: 10%;
-}
+
 
 .firebase {
     margin-left: 20%;
@@ -85,5 +81,47 @@
     height: 300px;
 
     border-radius: 50%;
+}
 
+.ambiente {
+    width: 100%;
+
+    position: relative;
+
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+
+
+.ambiente .img {
+
+    width: 100%;
+}
+
+.ambiente .text {
+
+    z-index: 5;
+
+    color: #444;
+    font-size: 30pt;
+    font-weight: bold;
+    text-align: center;
+
+    width: 50%;
+
+    margin-left: 25%;
+
+}
+
+.ambiente .text-button {
+    color: #444;
+    font-size: 20pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ambiente .text-pos {
+    margin-top: -50%;
+    margin-bottom: 45%;
 }

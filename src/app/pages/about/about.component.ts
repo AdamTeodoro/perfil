@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { MenuService } from 'src/app/services/menu.service';
 
 @Component({
   selector: 'app-about',
@@ -7,10 +6,10 @@ import { MenuService } from 'src/app/services/menu.service';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
+
     constructor() { }
 
     ngOnInit(): void {
-        MenuService.itemActive = 'about';
     }
 
 }

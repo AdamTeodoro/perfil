@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MenuService } from './services/menu.service';
 
 @Component({
   selector: 'app-root',
@@ -7,10 +8,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  constructor() {
+    title = 'λTec';
 
-  }
+    itemActive: string;
 
-  title = 'Perfil';
+    constructor(private menuService: MenuService) {
+
+
+	}
+
+    setItemMenuActive() {
+        this.itemActive = this.menuService.getLastPath(); 
+    }
 
 }

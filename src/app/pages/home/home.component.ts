@@ -1,18 +1,22 @@
 import { Component, OnInit } from '@angular/core';
-import { MenuService } from '../../services/menu.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
+
 export class HomeComponent implements OnInit {
 
-  constructor() {
-    MenuService.itemActive = 'home';
-   }
+    constructor(private router: Router) { }
 
-  ngOnInit(): void {
-  }
+    ngOnInit(): void {
+    }
+
+    byAbout() {
+        this.router.navigate(['/about']);
+    }
+
 
 }
