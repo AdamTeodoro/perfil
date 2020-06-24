@@ -12,6 +12,8 @@ import { AboutComponent } from './pages/about/about.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
+import { AboutModule } from './pages/about/about.module';
+import { HttpClient } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -28,8 +30,9 @@ import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.com
     AppRoutingModule,
     FormsModule,
     NgbModule,
+    AboutModule
   ],
-  providers: [],
+  providers: [HttpClient],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

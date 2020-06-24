@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { AdamService } from 'src/app/services/adam.service';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-about',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
-    constructor() { }
+    constructor(private adamService: AdamService) { }
+
+    adams$: Observable<any[]>;
 
     ngOnInit(): void {
+        this.adams$ = this.adamService.getAdam();
     }
+
+
+
 
 }

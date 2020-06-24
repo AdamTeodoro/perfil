@@ -5,15 +5,70 @@
     transition: all 3s ease;
 }
 
+.circular-predio {
+
+    width: 450px;
+    height: 450px;
+
+    border-radius: 50%;
+
+    transition: all 3s ease;
+
+}
+.circular-predio:hover {
+    transform: rotate(400grad);
+    transition: all 3s ease;
+}
+
+.img-pos-predio {
+    margin-left: 15%;
+}
 .img-pos-code {
     margin-top: 10%;
 }
+.code {
+    width: 100%;
+}
 
 .pos-text-first {
-    margin-top: 5%;
+    margin-top: 10%;
+    margin-left: 20%;
+
+    text-align: left;
+
+    width: 25%;
 }
 
 .pos-title {
     margin-left: 10%;
-    margin-top: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.pos-text-code {
+    margin-top: -55%;
+}
+
+.textoPrimario-code {
+    color: white;
+
+    font-size: 50pt;
+    font-weight: bold;
+
+    margin-left: 5%;
+
+}
+
+.textoTerceario-code {
+    margin-left: 55%;
+
+    font-size: 26pt;
+    font-weight: bold;
+
+    line-height: 50pt;
+
+    color: white;
+
+    width: 40%;
+
 }

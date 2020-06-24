@@ -7,14 +7,28 @@
     </div>
 </div>
 
+<div class="ambiente">
+    <img class="img" src="../../../assets/ambiente.jpg">
+
+    <div class="text text-pos">
+        SOMOS DEDICADOS EM UTILIZAR TECNOLOGIA PARA ENCONTRAR E SOLUCIONAR PROBLEMAS.
+        <br/>
+        <button routerLink="/about" class="btn btn-warning text-button">Sobre Nós</button>
+    </div>
+
+</div>
+
 <div class="pos-comentario textoPrimario">COMENTÁRIOS</div>
 
 <div class="cards row">
+
     <div class="col">
         <img class="circular-img" src="../../../assets/pessoa3.jpg">
+
         <div class="name">
             CTO Pedro - IBM
         </div>
+
         <div class="text-card">
             O trabalho foi entregue dentro do prazo estipulado além de agilizar processos internos, melhorou nossa margem de lucro.
         </div>
@@ -22,6 +36,7 @@
 
     <div class="col">
         <img class="circular-img" src="../../../assets/pessoa1.jpg">
+
         <div class="name">
             CEO Ane - FORK. System
         </div>
@@ -29,11 +44,9 @@
         <div class="text-card">
             Aumentou o desempenho do nosso sistema com agilidade e trabalho em equipe sem igual.
         </div>
-
     </div>
 
     <div class="col">
-
         <img class="circular-img" src="../../../assets/pessoa2.jpg">
 
         <div class="name">
@@ -43,33 +56,19 @@
         <div class="text-card">
             O projeto melhorou nossa produtividade, reforçou a segurança do nossos sistema e com o novo design ganhamos novos clientes.
         </div>
-
     </div>
-
 </div>
 
-<div class="ambiente">
-
-    <img class="img" src="../../../assets/ambiente.jpg">
-
-    <div class="text text-pos">
-        SOMOS DEDICADOS PARA ENCONTRAR E SOLUCIONAR PROBLEMAS COM TECNOLOGIA.
-        <br/>
-        <button (click)="byAbout()" class="btn btn-warning text-button">NOSSO TRABALHO</button>
-    </div>
-
-</div>
 
 <div class="tecnologias-pos textoPrimario">
-    PRINCIPAIS TECNOLOGIAS
+    SERVIÇOS
 </div>
 
 <div class="textoSecundario tilte-pos">
-    Back End
+    Server-side
 </div>
 
   <div class="col">
-
     <div class="row">
 
       <div class="col">
@@ -78,8 +77,8 @@
 
       <div class="col">
         <div class="textoTerceario text-left">
-          Nodejs para aplicações em tempo real, além da programação moderna com typescript e ORM sequelize.
-          Des de acriação de sistemas com arquitetura monolítica, até a criação de micro serviços.
+            Nodejs ambiente de execução para javascript usado em aplicações em tempo real junto com
+            express e ORM sequelize.
         </div>
 
       </div>
@@ -93,22 +92,20 @@
       <div class="col">
 
         <div class="textoTerceario text-right">
-            Cloud Firestore é a tecnologia perfeita para pequenos completos projetos, e consigo tem o poder da alta
-            produtividade na criação do do back end, proporcionando um foco maior no estilo
-            do site ou aplicativo.
+            Python para machine learning, criação de IA (Inteligência Artificial) e outros trabalhos como o poderoso Big Data Analytics.
         </div>
 
       </div>
 
       <div class="col">
-        <img  class="circular img-pos firebase"  src="../../../assets/firestore.png">
+        <img  class="python"  src="../../../assets/python.png">
       </div>
 
     </div>
   </div>
 
   <div class="textoSecundario tilte-pos">
-    Front End
+    Client-side
   </div>
 
   <div class="col">
@@ -123,11 +120,53 @@
 
         <div class="textoTerceario text-left">
             Angular, um poderoso framework completo e moderno capaz de garantir qualidade do projeto seja app ou web site,
-            garantindo produtividade e auxiliando nas diretrizes do clean code.
+            garantindo produtividade.
         </div>
 
       </div>
 
     </div>
-    
+
   </div>
+
+  <div class="contato-pos textoPrimario">CONTATO</div>
+    <div class="contact">
+        <div class="row">
+            <div class="col">
+                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.349319280536!2d-122.46110788519731!3d37.78185257975814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858739b9b440ad%3A0x96de9b59e5005c2a!2sArguello%20Blvd%2C%20San%20Francisco%2C%20CA%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1592707111131!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
+
+                <div class="textoSecundario text-contato">
+                    Esperamos seu contato, envie uma mensagem
+                    <br/>
+                    <button routerLink="/contact" class="btn btn-warning text-button">ENVIAR</button>
+                </div>
+            </div>
+            <div class="col icons">
+                <div class="row">
+                    <div class="col-2">
+                        <div class="icon">✉</div>
+                    </div>
+                    <div class="col">
+                        <div class="text-icon">email@empresa.com</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <div class="icon">📞</div>
+                    </div>
+                    <div class="col">
+                        <div class="text-icon">(99) 99999-9999</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <div class="icon">📌</div>
+                    </div>
+                    <div class="col">
+                        <div class="text-icon">São Francisco, CA, EUA, Arguello Blvd</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+

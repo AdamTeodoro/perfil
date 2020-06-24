@@ -32,7 +32,6 @@
 .tilte-pos {
     margin-left: 10%;
     margin-top: 5%;
-    margin-bottom: 5%;
 }
 
 .text-left {
@@ -54,8 +53,12 @@
 }
 
 
-.firebase {
-    margin-left: 20%;
+.python {
+    margin-left: 30%;
+
+    width: 40%;
+
+    height: 90%;
 }
 
 .angular {
@@ -116,12 +119,56 @@
 
 .ambiente .text-button {
     color: #444;
-    font-size: 20pt;
+
+    font-size: 16pt;
     font-weight: bold;
+
     text-align: center;
 }
 
 .ambiente .text-pos {
     margin-top: -50%;
     margin-bottom: 45%;
+}
+
+.contact {
+    width: 95%;
+
+    padding-top: 5%;
+
+    margin-left: 2.5%;
+
+}
+.icons {
+    border-left: 0.1px solid #ddd;
+}
+
+.icon {
+    font-size: 50pt;
+    font-family: fantasy;
+    color: #444;
+
+    -webkit-touch-callout: none;  /* iPhone OS, Safari */
+    -webkit-user-select: none;    /* Chrome, Safari 3 */
+    -khtml-user-select: none;     /* Safari 2 */
+    -moz-user-select: none;       /* Firefox */
+    -ms-user-select: none;        /* IE10+ */
+    user-select: none;
+}
+
+.text-icon {
+    margin-top: 5%;
+
+    font-size: 16pt;
+}
+
+
+.text-contato {
+    text-align: center;
+
+}
+
+.contato-pos {
+    margin-left: 5%;
+    margin-top: 10%;
 }
