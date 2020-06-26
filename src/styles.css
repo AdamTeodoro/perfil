@@ -1,5 +1,6 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
+
 .lambda {
     font-size:210pt;
 
@@ -26,6 +27,7 @@
     -ms-user-select: none;        /* IE10+ */
     user-select: none;            /* Possível implementação no futuro */
 }
+
 
 .row {
   margin: 0;

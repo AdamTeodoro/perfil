@@ -19,7 +19,9 @@
 .main{
     width: 100%;
 }
-
+.pos-comentarios {
+    margin-top: -10%;
+}
 .pos-comentario{
     margin-left: 5%;
     margin-bottom: 5%;
@@ -29,7 +31,7 @@
     margin-right: 5%;
 }
 
-.tilte-pos {
+.title-pos {
     margin-left: 10%;
     margin-top: 5%;
 }
@@ -58,7 +60,7 @@
 
     width: 40%;
 
-    height: 90%;
+    height: 100%;
 }
 
 .angular {
@@ -132,11 +134,11 @@
 }
 
 .contact {
-    width: 95%;
+    width: 100%;
 
     padding-top: 5%;
 
-    margin-left: 2.5%;
+    padding-left: 2.5%;
 
 }
 .icons {
@@ -158,12 +160,13 @@
 
 .text-icon {
     margin-top: 5%;
-
+    margin-left: 4%;
     font-size: 16pt;
 }
 
 
 .text-contato {
+
     text-align: center;
 
 }

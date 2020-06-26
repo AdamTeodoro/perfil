@@ -15,6 +15,7 @@
     transition: all 3s ease;
 
 }
+
 .circular-predio:hover {
     transform: rotate(400grad);
     transition: all 3s ease;
@@ -62,7 +63,7 @@
 .textoTerceario-code {
     margin-left: 55%;
 
-    font-size: 26pt;
+    font-size: 24pt;
     font-weight: bold;
 
     line-height: 50pt;
