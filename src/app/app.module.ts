@@ -14,6 +14,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.component';
 import { AboutModule } from './pages/about/about.module';
 import { HttpClient } from '@angular/common/http';
+import { ChartsModule } from 'ng2-charts';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { HttpClient } from '@angular/common/http';
     AppRoutingModule,
     FormsModule,
     NgbModule,
-    AboutModule
+    AboutModule,
+    ChartsModule,
   ],
   providers: [HttpClient],
   bootstrap: [AppComponent]

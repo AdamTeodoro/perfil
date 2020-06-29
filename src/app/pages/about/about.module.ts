@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { AboutRoutingModule } from './about-routing.module';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { ChartsModule } from 'ng2-charts';
 
 
 @NgModule({
@@ -10,7 +11,8 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
   imports: [
     CommonModule,
     AboutRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ChartsModule,
   ],
   providers:[
     HttpClient

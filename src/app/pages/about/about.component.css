@@ -41,7 +41,7 @@
 }
 
 .pos-title {
-    margin-left: 10%;
+    margin-left: 5%;
     margin-top: 5%;
     margin-bottom: 5%;
 }
@@ -73,3 +73,10 @@
     width: 40%;
 
 }
+.pos-text-chart {
+    margin-left: 5%;
+}
+.gr {
+    margin-top: 10%;
+}
+
