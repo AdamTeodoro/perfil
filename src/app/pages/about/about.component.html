@@ -1,46 +1,72 @@
+
+<!-- bloco 1 -->
 <div class="textoPrimario pos-title">
     SOBRE NÓS
 </div>
+
 <div class="row">
+
     <div class="col-4">
         <img class="circular-predio img-pos-predio" src="../../../assets/predio.jpg">
     </div>
+
     <div class="col pos-text-first">
+
         <div class="textoSecundario">
             História
         </div>
+
         <div class="textoTerceario">
             Fundada em 2002 com a metodologia classica empresarial, fomos tomando formas de gestão modernas de maneira a se tornar um ambiente produtivo e flexível.
         </div>
-    </div>
-</div>
 
-<div class="row">
-    <div class="img-pos-code">
-        <img class="code" src="../../../assets/codigo.jpg">
     </div>
 
-    <div class="textoPrimario-code pos-text-code">CULTURA</div>
-
-    <div class="textoTerceario-code pos-text-code">
-        TOMAMOS COMO DIRETRIZ O CLEAN CODE, SEMPRE APLICAMOS BOAS PRÁTICAS DE DESENVOLVIMENTO.
-        UTILIZAMOS O PATTERN ADEQUADO PARA CADA OCASIÃO.
-    </div>
 </div>
 
 
-<div class="gr">
-    <div class="textoPrimario pos-title">NOSSO TRABALHO</div>
-    <div class="chart-wrapper">
-        <canvas baseChart
-        [data]="pieChartData"
-        [labels]="pieChartLabels"
-        [chartType]="pieChartType"
-        [options]="pieChartOptions"
-        [plugins]="pieChartPlugins"
-        [legend]="pieChartLegend"
-        [colors]="pieChartcolors"
-        >
-        </canvas>
+
+<!-- bloco 2 -->
+<div class="img-pos-code">
+    <img class="code" src="../../../assets/codigo.jpg">
+</div>
+
+<div class="textoPrimario-code pos-title-code">NOSSO TRABALHO</div>
+
+<div class="textoTerceario-code pos-text-code">
+    ANALISAMOS SEU SOFTWARE, E DECIDIMOS O QUE DEVE SER FEITO, MANUTENÇÃO, REFAZER TODA A APLICAÇÃO, MELHORIA NO CÓDIGO E PERFORMANCE.
+</div>
+
+
+
+<!-- bloco 3 -->
+<div class="row chart-pos">
+    <div class="col-6">
+        <div class="textoPrimario pos-title">TRABALHOS</div>
+
+            <canvas baseChart
+                [data]="pieChartDataJobs"
+                [labels]="pieChartLabelsJobs"
+                [chartType]="pieChartTypeJobs"
+                [options]="pieChartOptionsJobs"
+                [plugins]="pieChartPluginsJobs"
+                [legend]="pieChartLegendJobs"
+                [colors]="pieChartcolorsJobs"
+                >
+            </canvas>
+    </div>
+
+    <div class="col-6">
+        <div class="textoPrimario pos-title">ATUALMENTE</div>
+            <canvas baseChart
+            [data]="pieChartDataInfo"
+            [labels]="pieChartLabelsInfo"
+            [chartType]="pieChartTypeInfo"
+            [options]="pieChartOptionsInfo"
+            [plugins]="pieChartPluginsInfo"
+            [legend]="pieChartLegendInfo"
+            [colors]="pieChartcolorsInfo"
+            >
+            </canvas>
     </div>
 </div>

@@ -22,7 +22,8 @@
 }
 
 .img-pos-predio {
-    margin-left: 15%;
+    margin-left: 10%;
+    margin-right: 15%;
 }
 .img-pos-code {
     margin-top: 10%;
@@ -47,13 +48,19 @@
 }
 
 .pos-text-code {
-    margin-top: -55%;
+    margin-top: -0%;
+    margin-left: 50%;
+    margin-bottom: 30%;
+}
+
+.pos-title-code {
+    margin-top: -60%;
 }
 
 .textoPrimario-code {
     color: white;
 
-    font-size: 50pt;
+    font-size: 38pt;
     font-weight: bold;
 
     margin-left: 5%;
@@ -61,7 +68,6 @@
 }
 
 .textoTerceario-code {
-    margin-left: 55%;
 
     font-size: 24pt;
     font-weight: bold;
@@ -70,13 +76,12 @@
 
     color: white;
 
-    width: 40%;
 
 }
-.pos-text-chart {
-    margin-left: 5%;
-}
-.gr {
-    margin-top: 10%;
+
+.chart-pos {
+    width: 100%;
+
+    margin-bottom: 15%;
 }
 
